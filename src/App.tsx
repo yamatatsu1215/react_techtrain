@@ -1,4 +1,5 @@
 import { Box } from "@mui/material"
+import { UploadImages } from "./components";
 
 function App() {
 
@@ -17,8 +18,9 @@ function App() {
           margin: "0 auto",
     }}>
     </Box>
+    <UploadImages></UploadImages>
     </>
   )
 }
 
-export default App
+export default App;
